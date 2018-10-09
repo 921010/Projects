@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/css/StyleJquery.css" rel="stylesheet" />
+
+    <script src="Content/js/jquery-3.0.0.js"></script>
+
+    <script>
+        $(document).ready(
+
+            function () {
+                $(".deneme").css("background-color", "purple");
+            }
+        );//sayfa yuklendikten sonra denemenin arkaplan rengi
+
+        //veya boyle yaziladabilir,ready yazilmadan da olur
+        $(function () {
+            $("#deneme2").css("background-color", "lightblue");
+
+        });//sayfa yuklendikten sonra deneme2nin arkaplan rengi
+
+
+        $(function () {
+            $("div a").css("background-color", "yellow"); //sayfa yuklendikten tum divlerin arkaplan rengi
+
+        });
+
+
+        $(function () { //olaydan,clickden sonra bi fonksiyon olacak!!!
+            $("#arka").click(function () {
+                //alert($("body").css("background-color"));
+                if ($("body").css("background-color") == "rgb(128, 128, 128)") {
+
+                    $("body").css("background-color", "white");
+                }
+
+                else
+                    $("body").css("background-color", "#808080");
+            });
+
+
+        });
+
+
+
+        var timerID;
+        $(function () {
+
+            $("#tbasla").click(function () {
+                window.clearInterval(timerID);
+
+                timerID = window.setInterval("renk()",1000);
+            });
+
+            $("#tdurdur").click(function () {
+                window.clearInterval(timerID);
+
+            });
+        });//timer
+
+        function renk() {
+            var r1 = Math.floor(Math.random() * 255);
+            var r2 = Math.floor(Math.random() * 255);
+            var r3 = Math.floor(Math.random() * 255);
+            $("body").css("background-color", "rgb(" + r1 + "," + r2 + "," + r3 + ")");
+        } //buton renk
+
+
+       
+
+
+    </script>
+
+</head>
+<body>
+
+    <div class="deneme ekleme">Deneme</div>
+    <div id="deneme2">
+
+        <p>Deneme Yazisi</p>
+        <br />
+        <a href="#">deneme linki</a>
+        <br />
+        <div>Deneme Divi</div>
+        <br />
+        <a href="#">Ikinci Link</a>
+    </div>
+
+    <input type="button" name="name" id="arka" value="renk degistir" />
+    <input type="button" name="name" id="tbasla" value="surekli renk degistirsin" />
+    <input type="button" name="name" id="tdurdur" value="durdur" />
+    <hr />
+    <input type="button" name="name" id="gizle" value="gizle" />
+    <input type="button" name="name" id="goster" value="göster" />
+
+    <input type="button" name="name" id="gizle-goster" value="gizle-goster" />
+
+    <hr />
+
+    <select id="secili">
+        <option value="mavi" selected="selected" >Mavi</option> <!--baslangicta secili hangisi gelecekse ona selected yazilir-->
+        <option value="yesil" >Yesil</option>
+    </select>
+    <div>
+        <div class="mavi">
+            <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+        </div>
+        <div class="yesil">
+            <p>
+                jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
+            </p>
+        </div>
+    </div>
+
+    <input type="button" id="sayfa" name="name" value="Sayfa Cagir " />
+    <div class="icsayfa"></div>
+
+    <div class="icsayfa"></div>
+
+    <div class="up">
+    <img src="Content/img/arrow.png" /> </div>
+
+
+
+    <script src="Content/js/MyScriptJQuery.js"></script>
+</body>
+</html>

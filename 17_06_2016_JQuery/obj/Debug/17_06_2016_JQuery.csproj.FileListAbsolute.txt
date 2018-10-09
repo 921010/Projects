@@ -1,0 +1,12 @@
+c:\users\administrator\documents\visual studio 2013\Projects\17_06_2016_JQuery\17_06_2016_JQuery\bin\17_06_2016_JQuery.dll.config
+c:\users\administrator\documents\visual studio 2013\Projects\17_06_2016_JQuery\17_06_2016_JQuery\bin\17_06_2016_JQuery.dll
+c:\users\administrator\documents\visual studio 2013\Projects\17_06_2016_JQuery\17_06_2016_JQuery\bin\17_06_2016_JQuery.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\17_06_2016_JQuery\17_06_2016_JQuery\obj\Debug\17_06_2016_JQuery.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\17_06_2016_JQuery\17_06_2016_JQuery\obj\Debug\17_06_2016_JQuery.dll
+c:\users\administrator\documents\visual studio 2013\Projects\17_06_2016_JQuery\17_06_2016_JQuery\obj\Debug\17_06_2016_JQuery.pdb
+F:\17_06_2016_JQuery\17_06_2016_JQuery\bin\17_06_2016_JQuery.dll.config
+F:\17_06_2016_JQuery\17_06_2016_JQuery\bin\17_06_2016_JQuery.dll
+F:\17_06_2016_JQuery\17_06_2016_JQuery\bin\17_06_2016_JQuery.pdb
+F:\17_06_2016_JQuery\17_06_2016_JQuery\obj\Debug\17_06_2016_JQuery.csprojResolveAssemblyReference.cache
+F:\17_06_2016_JQuery\17_06_2016_JQuery\obj\Debug\17_06_2016_JQuery.dll
+F:\17_06_2016_JQuery\17_06_2016_JQuery\obj\Debug\17_06_2016_JQuery.pdb

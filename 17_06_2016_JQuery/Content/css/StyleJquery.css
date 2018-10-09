@@ -1,0 +1,39 @@
+﻿body {
+
+    
+    
+}
+
+deneme{
+    width:200px;
+    height:200px;
+}
+
+.mavi, .yesil{
+    width:200px;
+    height:200px;
+   text-align:center;
+   padding-top:5px;
+    background-color:#0094ff;
+
+}
+
+.yesil{
+    background-color:#4cff00;
+    /*visibility:hidden;*/
+    display:none;/*ikiside tane gelmesin*/
+}
+
+#sayfa{
+margin:20px 20px;
+}
+
+.up{
+    width:50px;
+    height:50px;
+    position:fixed;
+    right:1%;
+    bottom:2%;
+    display:none;/*//baslangicta yukari gonderme tusu gorunemesin dedik*/
+}
+
